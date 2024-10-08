@@ -9,7 +9,7 @@ footer p {
     margin: 20px auto;
 }
 
-a :hover {
+a:hover {
     background-color: white;
     color: steelblue;
 }
