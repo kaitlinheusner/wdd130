@@ -13,3 +13,7 @@ a:hover {
     background-color: white;
     color: steelblue;
 }
+
+img {
+    width: 30%;
+}
