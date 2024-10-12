@@ -1,0 +1,28 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav {
+    text-align: center;
+}
+
+#hero {
+    text-align: center;
+}
+
+#heromsg {
+    text-align: center;
+}
+
+.buttonbox {
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+#background {
+    height: 725px
+}
