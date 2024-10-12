@@ -15,9 +15,28 @@ nav {
     text-align: center;
 }
 
+.home-title {
+    color: #6DA48F;
+}
+
+h4 {
+    color: #6DA48F;
+}
+
 .buttonbox {
     text-align: center;
 }
+
+.book, .join {
+    background-color: #25424C;
+    color: #6DA48F;
+}
+
+.book:hover, .join:hover {
+    background-color: #25424C;
+    color: #6DA48F;
+}
+
 
 main {
     text-align: center;
@@ -25,4 +44,37 @@ main {
 
 #background {
     height: 725px
+}
+
+body, header {
+    background-color: #25424C;
+}
+
+nav a:hover {
+    background-color: #25424C;
+    color: #6DA48F;
+}
+
+#background {
+    background-color: #25424C;
+}
+
+.msg {
+    background-color: #25424C;
+}
+
+.msg h2, .msg p {
+    color: #6DA48F;
+}
+
+footer {
+    background-color: #25424C;
+}
+
+footer a {
+    color: #6DA48F;
+}
+
+footer a:hover {
+    color: #6DA48F;
 }
