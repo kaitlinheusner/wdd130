@@ -47,8 +47,14 @@ h4 {
     text-align: center;
 }
 
-.book, .join {
+.book {
     background-color: #25424C;
+    color: #6DA48F;
+    text-decoration: none;
+}
+
+.join {
+    background-color: beige;
     color: #6DA48F;
     text-decoration: none;
 }
