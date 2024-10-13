@@ -27,12 +27,12 @@ nav a:hover {
     text-align: center;
 }
 
-#heroimg {
-    width: 100%;
-}
-
 #heromsg h1, #heromsg h4{
     text-align: center;
+}
+
+#heroimage {
+    width: 100%;
 }
 
 .home-title {
@@ -63,7 +63,7 @@ h4 {
     color: #6DA48F;
 }
 
-main {
+main section{
     background-color: beige;
     text-align: center;
 }
