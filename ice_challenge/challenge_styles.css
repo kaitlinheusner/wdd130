@@ -1,0 +1,26 @@
+
+#hero {
+    width: 100%;
+}
+
+body {
+    background-color: grey;
+    margin: 0;
+    max-width: 1600px;
+}
+
+.circlesbox {
+    text-align: center;
+    display: block;
+}
+
+.circle {
+    width:150px;
+    height:150px;
+    border: 10px solid #293535;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+}
+
