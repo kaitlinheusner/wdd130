@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
-:root {
-    --heading-font: "Gowun Batang", serif, georgia; 
-    --paragraph-font: "Varela Round", sans-serif, verdana;
-    ;
-}
-
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -21,10 +15,21 @@
     width: 80px;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
+.home-title{
+    font-family: "Gowun Batang", "serif", georgia;
+    font-size: 2em;
+}
+
+
 nav a{
     text-align: center;
     color: #6DA48F;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -46,10 +51,15 @@ nav a:hover {
 
 .home-title {
     color: #6DA48F;
+    margin-top: 10px;
 }
 
 h4 {
     color: #6DA48F;
+}
+
+h2 {
+    margin: 0;
 }
 
 .buttonbox {
@@ -60,6 +70,11 @@ h4 {
     background-color: #25424C;
     color: #6DA48F;
     text-decoration: none;
+    font-family: "Gowun Batang", "serif", georgia;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover {
@@ -72,17 +87,37 @@ h4 {
     color: #6DA48F;
 }
 
+.join {
+    background-color: bisque;
+}
+
 main section{
     background-color: beige;
     text-align: center;
 }
 
+.cardimg {
+    border: 10px solid bisque;
+}
+
+main section img{
+    box-sizing: border-box;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 body{
     background-color: beige;
+    font-family:"Varela Round", "sans-serif", verdana;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -91,15 +126,29 @@ header {
 
 .msg {
     background-color: #25424C;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2, .msg p {
     color: #6DA48F;
 }
 
+.msg p {
+    font-family:"Varela Round", "sans-serif", verdana;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
 footer {
     background-color: #25424C;
     color: #6DA48F;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
 footer a {
