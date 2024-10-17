@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+:root {
+    --heading-font: "Gowun Batang", serif, georgia; 
+    --paragraph-font: "Varela Round", sans-serif, verdana;
+    ;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
