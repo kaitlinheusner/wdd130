@@ -11,12 +11,19 @@
     height: 725px;
 }
 
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
 #logo {
     width: 80px;
 }
 
 #logo_link {
     padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 
 .home-title{
@@ -24,6 +31,10 @@
     font-size: 2em;
 }
 
+nav{
+    display: flex;
+    justify-content: space-around;
+}
 
 nav a{
     text-align: center;
@@ -38,11 +49,22 @@ nav a:hover {
 }
 
 #hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
     text-align: center;
+}
+
+#herobox {
+    grid-column: 1/4;
+    grid-row: 1/3;
 }
 
 #heromsg h1, #heromsg h4{
     text-align: center;
+}
+
+#heromsg h4{
+    color: white;
 }
 
 #heroimage {
