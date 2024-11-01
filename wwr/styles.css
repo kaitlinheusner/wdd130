@@ -90,7 +90,6 @@ nav a:hover {
 .home-grid{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat ;
 }
 
 h4 {
@@ -148,7 +147,7 @@ main section{
 
 .cardimg:hover {
     opacity: .6;
-    transform: scale (1.1);
+    transform: scale(1.1);
 }
 
 main section img{
@@ -206,7 +205,7 @@ header {
     display: grid;
     grid-column: 6/10;
     grid-row: 6/7;
-    box-shadow: 5px 5px 10 px #6DA48F;
+    box-shadow: 5px 5px 10px #6DA48F;
 }
 
 .msg h2, .msg p {
@@ -275,7 +274,7 @@ footer p{
     .home-title {
         font-size: 25px;
     }
-    .rivers-card,.canyon-card, .rapids-card { 
+    .rivers-card, .canyon-card, .rapids-card { 
         margin: 50px auto;
         width: 60%;
     }
