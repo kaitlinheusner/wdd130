@@ -275,14 +275,14 @@ footer p{
     .home-title {
         font-size: 25px;
     }
-    .rivers-card, .rapids-card { 
+    .rivers-card,.canyon-card, .rapids-card { 
         margin: 50px auto;
         width: 60%;
     }
     #background {
         display: none;
     }
-    , .msg {
+    .salmonriver, .msg {
         width: 80%;
         display: block;
         margin: 0 auto;
