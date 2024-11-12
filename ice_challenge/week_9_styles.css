@@ -1,0 +1,39 @@
+#background {
+    background-color: darkgrey;
+}
+
+.main-box{
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 500px;
+}
+
+#heroimg {
+    width: 100%;
+}
+
+h2 {
+    color: navy;
+}
+
+.text {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+
+footer {
+    grid-template-columns: 10px 10px 10px;
+}
+
+.read {
+    grid-column: 1/2;
+    text-align: left;
+}
+
+.comments {
+    grid-column: 3/4;
+    text-align: right;
+}
