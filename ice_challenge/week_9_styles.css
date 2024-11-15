@@ -1,39 +1,80 @@
-#background {
-    background-color: darkgrey;
-}
-
-.main-box{
-    align-content: center;
-    text-align: center;
+body {
+    margin: 0;
+    background-color: rgb(58, 58, 58);
+    display: flex;
+    justify-content: center;
     align-items: center;
-    box-sizing: border-box;
-    width: 500px;
 }
 
-#heroimg {
+.main-post{
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;  
+    width: 350px;
+    margin-top: 50px;
+}
+
+#postimg {
     width: 100%;
+    height: auto;
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.postcontent{
+    padding: 20px;
+    text-align: center;
 }
 
 h2 {
     color: navy;
 }
 
-.text {
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 5%;
+h1 {
+    font-weight: bold;
 }
 
-footer {
-    grid-template-columns: 10px 10px 10px;
+.stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: 50px;
+    background-color: #2d4a8a;
+    color: white;
+    padding: 4px 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
 }
 
-.read {
+.stat-item {
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.stat-item-2{
+    border-left: solid grey 1px;
+    border-right: solid grey 1px;
+    padding-top: 5;
+}
+
+sup {
+    text-transform: lowercase;
+}
+
+
+#read {
     grid-column: 1/2;
-    text-align: left;
+    grid-row: 2;
 }
 
-.comments {
+#views {
+    grid-column: 2/3;
+    grid-row: 2;
+}
+
+#comments {
     grid-column: 3/4;
-    text-align: right;
+    grid-row: 2;
 }
