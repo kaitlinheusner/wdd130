@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+#background {
+    background-color: #E56E38;
+    height: 725px;
+    display: grid;
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #25424C;
+}
+
+#logo {
+    width: 80px;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.home-title{
+    font-family: "Gowun Batang", "serif", georgia;
+    font-size: 2em;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    text-align: center;
+    color: #6DA48F;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: #25424C;
+    color: #6DA48F;
+}
+
+#hero {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+#heroimage {
+    width: 600px;
+}
+
+.herotext {
+    justify-content: right;
+    max-width: 400px;
+    margin-left: 200px;
+}
+
+
+main section{
+    background-color: beige;
+    text-align: center;
+}
+
+.postimg {
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat (3, 1fr);
+    gap: 5px;
+    margin: 20px;
+    position: relative;
+}
+
+.chile-card, .us-card, .zambia-card {
+    background-color: #F5EFBC;
+    border: 1px solid #25424C;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    width: 300px;
+    height: auto;
+}
+
+.chile-card h3,.us-card h3,.zambia-card h3 {
+    font-family: "Gowun Batang", serif;
+    color: #E56E38;
+    margin-bottom: 10px;
+}
+
+
+.chile-card {
+    grid-column: 1/2 ;
+    grid-row: 1;
+    align-self: start;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: -20px;
+    z-index: 3;
+}
+
+.us-card {
+    grid-column: 2/3;
+    grid-row: 2;
+    align-self: center;
+    margin-left: -200px;
+    margin-right: -20px;
+    z-index: 2;
+}
+
+.zambia-card {
+    grid-column: 3/4;
+    grid-row: 3;
+    align-self: end;
+    margin-left: -200px;
+    z-index: 1;
+}
+
+
+body{
+    background-color: beige;
+    font-family:"Varela Round", "sans-serif", verdana;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #25424C;
+    color: #6DA48F;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+footer a {
+    color: #6DA48F;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #6DA48F;
+    text-decoration: underline;
+}
+
+footer p{
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    #hero-msg h1 {
+        color: #6f7364;
+    }
+    .home-title {
+        font-size: 25px;
+    }
+    .rivers-card, .canyon-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .salmonriver, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
+            
