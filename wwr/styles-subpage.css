@@ -82,7 +82,6 @@ main section{
 
 .content {
     display: grid;
-    grid-template-columns: (3, 1fr);
 }
 
 .chile-card, .us-card, .zambia-card {
